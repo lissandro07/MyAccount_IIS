@@ -5,3 +5,4 @@ saldo_cuenta(antonia, 20000).
 es_millonaria(Persona) :-
     saldo_cuenta(Persona, Saldo),
     Saldo > 1000000.
+    
